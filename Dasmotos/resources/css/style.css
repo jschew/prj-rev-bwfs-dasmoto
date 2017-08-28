@@ -1,0 +1,47 @@
+body{
+  font-family: Helvetica;
+}
+
+.title{
+  font-family: Helvetia;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("../images/pattern.jpeg");
+
+  /* Why does the relative path here work like this?  For the other images that are on the page, the path used was ./resources/images/pattern.jpeg
+    Why doesn't that same relative path work for the background-image?  Why are is the "../" neccessary?  Doesn't that mean to go up 2 directories?
+    That should mean that it was looking in the directory above Dasmotos, shouldn't it?  In that case, there wouldn't be an "images" directory to find an image at all.
+
+    It seems to me that if I were to use ./ then it should be looking in the resources directory for the images directory whereas ../ would be looking in the Dasmotos directory where it wouldn't find
+    an images directory
+
+    I don't understand why listing the url as "../images/pattern.jpeg" works here.
+  */
+}
+
+.header{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.pricing{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+.brushes{
+  background-color: mediumspringgreen;
+}
+
+.frames{
+  background-color: lightcoral;
+}
+
+.paint{
+  background-color: skyblue;
+}
